@@ -1,0 +1,31 @@
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.back img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover; 
+    border-radius: 16px;
+    margin: 0 14px 0 5px;
+    background: none;
+    transition: all 0.5s ease;
+}
+
+@media only screen and (max-width: 576px) {
+    table {
+        font-size: 10px;
+    }
+}
+input[type=text]:focus{
+    border-color: red;
+}
+button[type=submit]:hover{
+    background-color: red;
+}
+
+button[type=reset]:hover{
+    background-color:green;
+}
